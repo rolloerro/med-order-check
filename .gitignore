@@ -1,0 +1,50 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ======================
+# Virtual environments
+# ======================
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# ======================
+# FastAPI / Uvicorn
+# ======================
+*.log
+uvicorn.log
+
+# ======================
+# OS
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Editors / IDE
+# ======================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ======================
+# Tests / coverage
+# ======================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ======================
+# Build artifacts
+# ======================
+dist/
+build/
+*.egg-info/
