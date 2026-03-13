@@ -1,6 +1,6 @@
 from .rules import check_dose
 
-def run_checks(order):
+def run_checks(order): 
     issues = []
 
     for med in order.medications:
