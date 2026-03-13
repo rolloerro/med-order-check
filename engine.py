@@ -1,8 +1,8 @@
 from .rules import check_dose
 
-def run_checks(order):
+def run_checks(order): 
     issues = []
-
+ 
     for med in order.medications:
         dose_issue = check_dose(med)
         if dose_issue:
